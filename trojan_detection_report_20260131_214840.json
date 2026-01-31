@@ -1,0 +1,37 @@
+{
+  "competition": "IIT Kanpur Hardware Security Bootcamp 2026",
+  "detection_method": "Statistical Only",
+  "summary": {
+    "total_designs": 1,
+    "ht_infested": 1,
+    "ht_free": 0,
+    "detection_rate": 1.0,
+    "avg_confidence": 0.4297706425189972
+  },
+  "designs": [
+    {
+      "filename": "test_trojan.v",
+      "module_name": "aes_cipher_trojan",
+      "prediction": "HT-infested",
+      "confidence": 0.4297706425189972,
+      "hybrid_score": 1.0,
+      "gnn_score": 0.5595412850379944,
+      "statistical_score": 1.0,
+      "statistics": {
+        "signals": 6,
+        "assignments": 1,
+        "always_blocks": 2,
+        "instances": 7
+      },
+      "anomalies": {
+        "suspicious_names": 2,
+        "unusual_widths": 0,
+        "high_fanout": 0,
+        "isolated_signals": 1,
+        "complex_logic": 0,
+        "rare_signals": 0,
+        "golden_deviation": 0
+      }
+    }
+  ]
+}
